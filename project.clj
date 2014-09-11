@@ -10,4 +10,4 @@
                  [ring/ring-jetty-adapter "1.3.1"]]
   :plugins [[lein-ring "0.8.10"]]
   :ring {:auto-reload? true
-         :handler schema-workshop.core/handler})
+         :handler schema-workshop.main/handler})
